@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'PT-Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('PT Serif'), local('PTSerif-Regular'), url('/fonts/pt-serif-v11-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PT-Serif';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('PT Serif Bold Italic'), local('PTSerif-Bold-Italic'), url('/fonts/pt-serif-v11-latin-700italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/fonts/montserrat-v14-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Freight-Big-Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Freight Big Pro Medium'), url('/fonts/Freight-Big-Pro-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'Freight-Big-Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Freight Big Pro Book Italic'), url('/fonts/Freight-Big-Pro-Book-Italic.woff2');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: #303030;
+  -webkit-tap-highlight-color: transparent;
+}
+
+p {
+  font-size: 15px;
+  font-family: PT-Serif;
+  line-height: 2em;
+  letter-spacing: 0.01em;
+}
+
+strong {
+  font-family: PT-Serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Freight-Big-Pro, serif;
+  font-size: clamp(45px, 7vw, 54px);
+  font-weight: normal;
+  line-height: 1.1em;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: Freight-Big-Pro, serif;
+  font-size: clamp(20px, 6vw, 28px);
+  font-weight: normal;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h4 {
+  font-family: Freight-Big-Pro, serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.6em;
+  letter-spacing: 0.05em;
+}
+
+h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+
