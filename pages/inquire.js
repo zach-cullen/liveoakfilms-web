@@ -1,3 +1,4 @@
+import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
@@ -8,7 +9,7 @@ import LeafDetail from '../components/LeafDetail'
 
 export default function Inquire ({ pageContent }) {
   return (
-    <>
+    <PageContainer title="Inquire">
       <Nav />
       <Hero
         overlayImgUrl='/images/contact-header.png'
@@ -24,6 +25,6 @@ export default function Inquire ({ pageContent }) {
         <LeafDetail />
       </PageSection>
       <Footer />
-    </>
+    </PageContainer>
   )
 }

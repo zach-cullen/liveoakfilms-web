@@ -1,3 +1,4 @@
+import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
@@ -11,9 +12,8 @@ import Text from '../components/Text'
 import { homeContent as pageContent } from '../lib/content'
 
 export default function Home () {
-
   return (
-    <>
+    <PageContainer title="Home">
       <Nav />
       <Hero
         screenPercentage={66}
@@ -49,6 +49,6 @@ export default function Home () {
         </SectionContainer>
       </PageSection>
       <Footer />
-    </>
+    </PageContainer>
   )
 }

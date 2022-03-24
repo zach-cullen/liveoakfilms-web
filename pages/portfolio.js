@@ -1,3 +1,4 @@
+import PageContainer from '../components/PageContainer'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import PageSection from '../components/PageSection'
@@ -8,7 +9,7 @@ import { portfolioContent as pageContent } from '../lib/content'
 
 export default function Portfolio () {
   return (
-    <>
+    <PageContainer title="Portfolio">
       <Nav noHero />
       <PageSection pY='40px' />
       <PageSection>
@@ -18,6 +19,6 @@ export default function Portfolio () {
         </CustomContainer>
       </PageSection>
       <Footer />
-    </>
+    </PageContainer>
   )
 }
