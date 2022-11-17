@@ -1,9 +1,9 @@
 # liveoakfilm.co
 
 See Deployed Site:
-[Live Oak Films](https://liveoakfilm-co.vercel.app/)
+[Live Oak Films](https://liveoakfilms.com/)
 
-This is the newest version of a static website I built for my previous business, Live Oak Films. It features responsive styles, css animation, and server side data fetching to the CMS. Videos are provided by the Vimeo player API, and images are hosted on AWS S3. 
+NextJS React static website for my previous full-time business and now occasional side-hustle Live Oak Films.
 
 ## Top Features: 
 
@@ -15,17 +15,6 @@ This is the newest version of a static website I built for my previous business,
 
 ### Full Screen Video Player w/ Animation
 [./components/VideoFullScreen.js](https://github.com/zach-cullen/liveoakfilm.co/blob/master/components/VideoFullScreen.js)
-
-## Running Locally
-
-```bash
-git clone https://github.com/zach-cullen/liveoakfilm.co
-cd liveoakfilm.co
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 
 ## Built Using:
 
